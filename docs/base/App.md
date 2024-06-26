@@ -42,6 +42,9 @@ atau dengan alias:
 
 Jalankan migrasi untuk menerapkan perubahan pada basis data MongoDB:
 
+> [!WARNING]
+> **Pastikan Anda sudah membuat basis data MongoDB dengan nama `belajar_django_api` dan collection `myCollection`**
+
 ```bash
 python manage.py migrate EmployeeApp
 ```
